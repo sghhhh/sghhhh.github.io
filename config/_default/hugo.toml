@@ -9,6 +9,7 @@ defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 
 enableRobotsTXT = true
+buildFuture = true
 [pagination]
   pagerSize = 10
 summaryLength = 0

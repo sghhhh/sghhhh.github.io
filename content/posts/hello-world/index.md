@@ -1,6 +1,6 @@
 ---
 title: "Hello World - 我的第一篇博客"
-date: 2026-02-18
+date: 2026-02-17T12:00:00+08:00
 draft: false
 description: "这是我使用 Hugo + Blowfish 搭建博客后的第一篇文章"
 tags: ["Hugo", "博客", "Blowfish"]

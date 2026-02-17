@@ -2,7 +2,7 @@
 # Refer to theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "blowfish"
+colorScheme = "ocean"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 
@@ -10,23 +10,21 @@ enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
 
-# robots = ""
-
 [header]
   layout = "fixed-fill-blur"
 
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "hero"
   homepageImage = ""
   showRecent = true
-  showRecentItems = 6
+  showRecentItems = 9
   showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
@@ -40,7 +38,7 @@ enableImageLazyLoading = true
   showDateUpdated = true
   showAuthor = true
   showHero = true
-  heroStyle = "background"
+  heroStyle = "thumbAndBackground"
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
@@ -53,11 +51,12 @@ enableImageLazyLoading = true
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = true
-  sharingLinks = [ "twitter", "reddit", "linkedin", "email", "telegram", "line"]
+  sharingLinks = ["twitter", "reddit", "linkedin", "email", "telegram"]
 
 [list]
-  showHero = false
-  showBreadcrumbs = false
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
   showSummary = true
   showTableOfContents = false
   showCards = true
@@ -71,13 +70,13 @@ enableImageLazyLoading = true
 [taxonomy]
   showTermCount = true
   showHero = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showTableOfContents = false
-  cardView = false
+  cardView = true
 
 [term]
   showHero = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showTableOfContents = false
   groupByYear = false
   cardView = true
